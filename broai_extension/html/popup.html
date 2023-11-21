@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish&display=swap">
+</head>
+<body>
+  <div id="container">
+    <input type="text" id="url" placeholder="Enter API Endpoint URL">
+    <input type="file" id="fileInput" accept=".json" style="display:none">
+    <label for="fileInput" id="importButton">Add context</label>
+
+    <select id="method">
+      <option value="POST">Local AI</option>
+      <option value="POST CARDINAL">Cardinal</option>
+      <option value="RUNPOD">RunPod</option>
+      <option value="CUSTOM REMOTE">Custom Remote</option>
+    </select>c
+    <textarea id="system" placeholder="Default Assistant:    You are a helpful .. "></textarea>
+    <textarea id="requestBody" placeholder="Enter Request Body (JSON)"></textarea>
+    <div id ="functional">
+      <button class ="active" id="sendButton">Send Your Prompt</button>
+      <button class ="active" title="OS version don`t use agents by default" id="workai">Work Analizer</button> 
+      <button id="computerAi" title="
+      Computational
+      Algorithms
+      Realizing
+      Dynamic
+      Intelligence
+      Networks
+      And
+      Learning"><s>Cardinal System</s></button>
+      <button class ="btns" id="creatorai"><s>Creator Assistant</s></button> 
+      <button class ="btns" id="marketerai"><s>Email Campaings</s></button> 
+      <button class ="btns" id="productai"><s>Product Analizer</s></button> 
+
+
+    </div>
+
+    <textarea id="response" readonly></textarea>
+    <button class ="active" id="captureButton">Capture Text</button>
+    <button  id="exportButton"><s>Export History</s></button>
+    <button  id="importButton"><s>Import History</s></button>
+    <button  id="clearHistoryButton"><s>Clear History</s></button>
+    <button  id="toggleViewButton"><s>Toggle View</s></button>
+    <button  id="myprofile">Contact me !</button> 
+    <section id="currentSiteSection"></section>
+    <button class ="btns" id="getCurrentSiteInfoButton">Digest Website Data</button>
+    <button class ="btns" id="viewBookmarksButton">Adapt Navigation</button>
+ 
+    <section id="bookmarksSection"></section>
+    <div id="loadingSpinner"></div>
+  </div>
+  <script src="../js/popup.js"></script>
+  <script src="../js/currentSite.js"></script>
+  <script src="../js/bookmarks.js"></script>
+
+
+  <div id="historyContainer"></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[model]
+path = "MODEL PATH"
+
+[docs]
+path = "\\documents"
+
+[digested]
+path = "\\digested"
+
+[Profile]
+Name = "Jhon"
+Expertise = "--"
+Education = "--"
+"Native Language" = "--"
+"Programming Languages" = "--"
+Projects = "--"
+Salary = "--"
+Region = "--"
+Remote = "--"
+"Custom Fields" = ""

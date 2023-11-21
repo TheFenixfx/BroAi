@@ -1,0 +1,48 @@
+{
+    "manifest_version": 3,
+    "name": "Bro Ai",
+    "version": "1.0",
+    "description": "A Chrome extension to manage a LLM using http requests",
+    "icons": {
+      "48": "images/icon.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabs",
+      "webRequest", 
+      "webRequestAuthProvider",
+      "bookmarks",
+      "scripting",
+      "storage",
+      "contextMenus"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:5000/*",
+        "http://localhost:*/*"
+      ],
+    "action": {
+        "default_popup": "/html/popup.html"
+      },
+
+      "background": {
+        "service_worker": "/js/background.js"
+      },
+    "content_security_policy": {"extension_pages":"script-src 'self'; object-src 'none'; connect-src *;"},
+
+    "web_accessible_resources": [
+    {
+        "resources": ["js/popup.js", "css/styles.css"],
+        "matches": ["<all_urls>"]
+    }
+    ],
+    "content_scripts": [
+        {
+          "matches": ["http://*/*", "https://*/*","<all_urls>","https://*.linkedin.com/*","https://*.google.com/*"],
+          "js": [
+            "/js/content_scripts.js"
+          ]
+        }
+      ]
+   
+}

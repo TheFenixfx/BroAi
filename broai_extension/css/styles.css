@@ -1,0 +1,175 @@
+ /* styles.css */
+#loadingSpinner {
+  display: none;  /* Hide by default */
+  width: 50px;
+  height: 50px;
+  border: 5px solid #343b3f;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#container {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: #8484c5d3;
+  background-color: #414a50; ;
+}
+
+#requestBody {
+  background-color: grey;
+  color: white;
+  /* Additional styles if needed */
+  border: none; /* This will remove the border */
+  padding: 10px; /* This will add some padding inside the text area */
+  font-size: 16px; /* This will set the font size */
+  width: 100%; /* This will set the width */
+  height: 100px; /* This will set the height */
+  font-family: "Mulish";
+  font-weight: 100;
+}
+
+
+#response {
+  background-color: grey;
+  color: white;
+  /* Additional styles if needed */
+  border: none; /* This will remove the border */
+  padding: 10px; /* This will add some padding inside the text area */
+  font-size: 16px; /* This will set the font size */
+  width: 100%; /* This will set the width */
+  height: 100px; /* This will set the height */
+}
+
+.btns {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  border-radius: 8px;
+
+}
+
+#exportButton{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  font-size: 10px;
+  -webkit-text-fill-color: azure;
+}
+#importButton{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  font-size: 10px;
+  -webkit-text-fill-color: azure;
+
+}
+#clearHistoryButton{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  font-size: 10px;
+  -webkit-text-fill-color: azure;
+
+}
+#toggleViewButton{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  font-size: 10px;
+  -webkit-text-fill-color: azure;
+
+}
+
+#agent{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #5772ec;
+  font-size: 11px;
+  -webkit-text-fill-color: azure;
+
+}
+
+
+.active{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #5772ec;
+  font-size: 11px;
+  -webkit-text-fill-color: azure;
+  border-radius: 8px;
+
+
+}
+
+#computerAi{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #0a34f0;
+  font-size: 11px;
+  -webkit-text-fill-color: azure;
+  border-radius: 8px;
+}
+
+#myprofile{
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #5772ec;
+  font-size: 11px;
+  -webkit-text-fill-color: azure;
+  border-radius: 8px;
+
+}
+
+
+.dropdown {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#requestBody {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: alicebluec;
+}
+
+#response {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#functional{
+  flex: content;
+  align-items: center;
+}
