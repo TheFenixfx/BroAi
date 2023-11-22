@@ -24,7 +24,8 @@
 - If you use a finetune model for RAG like Gorilla / Dragon.. etc , you can make an enterprise server or you own Jarvis :D 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k5qUyoJ8bEg?si=vPhi87yJQaK0KpiX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the Video](https://img.youtube.com/vi/k5qUyoJ8bEg/0.jpg)](https://www.youtube.com/watch?v=k5qUyoJ8bEg)
+
 
 
 
