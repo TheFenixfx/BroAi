@@ -23,6 +23,11 @@
 - Add timers to fire Functions keeping context in docs, so you can interact with an AI always up and watching
 - If you use a finetune model for RAG like Gorilla / Dragon.. etc , you can make an enterprise server or you own Jarvis :D 
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k5qUyoJ8bEg?si=vPhi87yJQaK0KpiX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 # Notes
 
  - Install pip requirements
